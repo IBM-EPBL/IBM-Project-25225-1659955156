@@ -38,3 +38,24 @@ model.add(Dense(1,activation='sigmoid'))
 model.compile(loss='binary_crossentropy',optimizer="adam",metrics=["accuracy"])
 #Training the model
 model.fit_generator(x_train,steps_per_epoch=14,epochs=10,validation_data=x_test,validation_steps=4)
+Epoch 1/10
+14/14 [==============================] - 27s 2s/step - loss: 0.6515 - accuracy: 0.6445 - val_loss: 0.6824 - val_accuracy: 0.5950
+Epoch 2/10
+14/14 [==============================] - 27s 2s/step - loss: 0.6512 - accuracy: 0.6445 - val_loss: 0.6798 - val_accuracy: 0.5950
+Epoch 3/10
+14/14 [==============================] - 25s 2s/step - loss: 0.6510 - accuracy: 0.6445 - val_loss: 0.6803 - val_accuracy: 0.5950
+Epoch 4/10
+14/14 [==============================] - 25s 2s/step - loss: 0.6511 - accuracy: 0.6445 - val_loss: 0.6791 - val_accuracy: 0.5950
+Epoch 5/10
+14/14 [==============================] - 25s 2s/step - loss: 0.6509 - accuracy: 0.6445 - val_loss: 0.6803 - val_accuracy: 0.5950
+Epoch 6/10
+14/14 [==============================] - 25s 2s/step - loss: 0.6510 - accuracy: 0.6445 - val_loss: 0.6810 - val_accuracy: 0.5950
+Epoch 7/10
+14/14 [==============================] - 25s 2s/step - loss: 0.6509 - accuracy: 0.6445 - val_loss: 0.6805 - val_accuracy: 0.5950
+Epoch 8/10
+14/14 [==============================] - 25s 2s/step - loss: 0.6511 - accuracy: 0.6445 - val_loss: 0.6796 - val_accuracy: 0.5950
+Epoch 9/10
+14/14 [==============================] - 25s 2s/step - loss: 0.6510 - accuracy: 0.6445 - val_loss: 0.6804 - val_accuracy: 0.5950
+Epoch 10/10
+14/14 [==============================] - 25s 2s/step - loss: 0.6511 - accuracy: 0.6445 - val_loss: 0.6808 - val_accuracy: 0.5950
+
